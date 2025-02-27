@@ -1,6 +1,7 @@
 class Solution {
     public int[] nextGreaterElement(int[] nums1, int[] nums2) {
         Stack<Integer> stack = new Stack<>();
+        //TC->O(n + m),SC->O(n)(excluding output array)
         HashMap<Integer, Integer> hashMap = new HashMap();
         for(int i = nums2.length - 1; i >= 0; i--){
             while(!stack.isEmpty() && stack.peek() <= nums2[i]) {
