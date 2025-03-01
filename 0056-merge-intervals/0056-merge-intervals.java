@@ -1,6 +1,7 @@
 class Solution {
     public int[][] merge(int[][] intervals) {
         int n = intervals.length;
+        if (n <= 1) return intervals; // Edge case: No merging needed
         Arrays.sort(intervals, (a, b) -> a[0] - b[0]);//ascemding
         int start = intervals[0][0];
         int end = intervals[0][1];
