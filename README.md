@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/dakshu04/striver-sde/tree/master/0088-merge-sorted-array) |
 | [0090-subsets-ii](https://github.com/dakshu04/striver-sde/tree/master/0090-subsets-ii) |
 | [0118-pascals-triangle](https://github.com/dakshu04/striver-sde/tree/master/0118-pascals-triangle) |
+| [0287-find-the-duplicate-number](https://github.com/dakshu04/striver-sde/tree/master/0287-find-the-duplicate-number) |
 | [0496-next-greater-element-i](https://github.com/dakshu04/striver-sde/tree/master/0496-next-greater-element-i) |
 | [1552-build-an-array-with-stack-operations](https://github.com/dakshu04/striver-sde/tree/master/1552-build-an-array-with-stack-operations) |
 ## Binary Search
@@ -21,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/dakshu04/striver-sde/tree/master/0004-median-of-two-sorted-arrays) |
 | [0033-search-in-rotated-sorted-array](https://github.com/dakshu04/striver-sde/tree/master/0033-search-in-rotated-sorted-array) |
+| [0287-find-the-duplicate-number](https://github.com/dakshu04/striver-sde/tree/master/0287-find-the-duplicate-number) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -53,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0031-next-permutation](https://github.com/dakshu04/striver-sde/tree/master/0031-next-permutation) |
 | [0088-merge-sorted-array](https://github.com/dakshu04/striver-sde/tree/master/0088-merge-sorted-array) |
 | [0143-reorder-list](https://github.com/dakshu04/striver-sde/tree/master/0143-reorder-list) |
+| [0287-find-the-duplicate-number](https://github.com/dakshu04/striver-sde/tree/master/0287-find-the-duplicate-number) |
 ## Recursion
 |  |
 | ------- |
@@ -84,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0090-subsets-ii](https://github.com/dakshu04/striver-sde/tree/master/0090-subsets-ii) |
+| [0287-find-the-duplicate-number](https://github.com/dakshu04/striver-sde/tree/master/0287-find-the-duplicate-number) |
 ## Matrix
 |  |
 | ------- |
