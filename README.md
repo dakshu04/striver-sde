@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/dakshu04/striver-sde/tree/master/0088-merge-sorted-array) |
 | [0090-subsets-ii](https://github.com/dakshu04/striver-sde/tree/master/0090-subsets-ii) |
 | [0118-pascals-triangle](https://github.com/dakshu04/striver-sde/tree/master/0118-pascals-triangle) |
+| [0128-longest-consecutive-sequence](https://github.com/dakshu04/striver-sde/tree/master/0128-longest-consecutive-sequence) |
 | [0287-find-the-duplicate-number](https://github.com/dakshu04/striver-sde/tree/master/0287-find-the-duplicate-number) |
 | [0493-reverse-pairs](https://github.com/dakshu04/striver-sde/tree/master/0493-reverse-pairs) |
 | [0496-next-greater-element-i](https://github.com/dakshu04/striver-sde/tree/master/0496-next-greater-element-i) |
@@ -82,6 +83,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0073-set-matrix-zeroes](https://github.com/dakshu04/striver-sde/tree/master/0073-set-matrix-zeroes) |
+| [0128-longest-consecutive-sequence](https://github.com/dakshu04/striver-sde/tree/master/0128-longest-consecutive-sequence) |
 | [0496-next-greater-element-i](https://github.com/dakshu04/striver-sde/tree/master/0496-next-greater-element-i) |
 | [3227-find-missing-and-repeated-values](https://github.com/dakshu04/striver-sde/tree/master/3227-find-missing-and-repeated-values) |
 ## Monotonic Stack
@@ -135,4 +137,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0493-reverse-pairs](https://github.com/dakshu04/striver-sde/tree/master/0493-reverse-pairs) |
+## Union Find
+|  |
+| ------- |
+| [0128-longest-consecutive-sequence](https://github.com/dakshu04/striver-sde/tree/master/0128-longest-consecutive-sequence) |
 <!---LeetCode Topics End-->
