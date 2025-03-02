@@ -18,7 +18,7 @@ class Solution {
         }
         int mid = size / 2 + 1;
         temp = head;
-        while(mid > 0) {
+        while(temp !=  null) {
             mid = mid - 1;
             if(mid == 0) {
                 break;
