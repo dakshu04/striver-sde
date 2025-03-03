@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/dakshu04/striver-sde/tree/master/0004-median-of-two-sorted-arrays) |
+| [0015-3sum](https://github.com/dakshu04/striver-sde/tree/master/0015-3sum) |
 | [0031-next-permutation](https://github.com/dakshu04/striver-sde/tree/master/0031-next-permutation) |
 | [0033-search-in-rotated-sorted-array](https://github.com/dakshu04/striver-sde/tree/master/0033-search-in-rotated-sorted-array) |
 | [0048-rotate-image](https://github.com/dakshu04/striver-sde/tree/master/0048-rotate-image) |
@@ -70,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0015-3sum](https://github.com/dakshu04/striver-sde/tree/master/0015-3sum) |
 | [0031-next-permutation](https://github.com/dakshu04/striver-sde/tree/master/0031-next-permutation) |
 | [0088-merge-sorted-array](https://github.com/dakshu04/striver-sde/tree/master/0088-merge-sorted-array) |
 | [0143-reorder-list](https://github.com/dakshu04/striver-sde/tree/master/0143-reorder-list) |
@@ -138,6 +140,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0015-3sum](https://github.com/dakshu04/striver-sde/tree/master/0015-3sum) |
 | [0056-merge-intervals](https://github.com/dakshu04/striver-sde/tree/master/0056-merge-intervals) |
 | [0088-merge-sorted-array](https://github.com/dakshu04/striver-sde/tree/master/0088-merge-sorted-array) |
 ## Binary Indexed Tree
