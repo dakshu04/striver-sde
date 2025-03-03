@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0008-string-to-integer-atoi](https://github.com/dakshu04/striver-sde/tree/master/0008-string-to-integer-atoi) |
 | [0014-longest-common-prefix](https://github.com/dakshu04/striver-sde/tree/master/0014-longest-common-prefix) |
 | [0020-valid-parentheses](https://github.com/dakshu04/striver-sde/tree/master/0020-valid-parentheses) |
+| [0242-valid-anagram](https://github.com/dakshu04/striver-sde/tree/master/0242-valid-anagram) |
 ## Stack
 |  |
 | ------- |
@@ -113,6 +114,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0073-set-matrix-zeroes](https://github.com/dakshu04/striver-sde/tree/master/0073-set-matrix-zeroes) |
 | [0128-longest-consecutive-sequence](https://github.com/dakshu04/striver-sde/tree/master/0128-longest-consecutive-sequence) |
 | [0138-copy-list-with-random-pointer](https://github.com/dakshu04/striver-sde/tree/master/0138-copy-list-with-random-pointer) |
+| [0242-valid-anagram](https://github.com/dakshu04/striver-sde/tree/master/0242-valid-anagram) |
 | [0496-next-greater-element-i](https://github.com/dakshu04/striver-sde/tree/master/0496-next-greater-element-i) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/dakshu04/striver-sde/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [3227-find-missing-and-repeated-values](https://github.com/dakshu04/striver-sde/tree/master/3227-find-missing-and-repeated-values) |
@@ -155,6 +157,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/dakshu04/striver-sde/tree/master/0015-3sum) |
 | [0056-merge-intervals](https://github.com/dakshu04/striver-sde/tree/master/0056-merge-intervals) |
 | [0088-merge-sorted-array](https://github.com/dakshu04/striver-sde/tree/master/0088-merge-sorted-array) |
+| [0242-valid-anagram](https://github.com/dakshu04/striver-sde/tree/master/0242-valid-anagram) |
 ## Binary Indexed Tree
 |  |
 | ------- |
