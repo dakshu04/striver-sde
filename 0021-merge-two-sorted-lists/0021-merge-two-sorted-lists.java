@@ -8,23 +8,26 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
-class Solution {//TC->O(n+m),SC->O(n+m)
+class Solution {//TC->O(n+m),SC->O(1)
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
-        ListNode dummy = new ListNode();
-        ListNode curr = dummy;
-        ListNode head1 = list1;
-        ListNode head2 = list2;
-        while(head1 != null && head2 != null) {
-            if(head1.val > head2.val) {
-                curr.next = head2;
-                head2 = head2.next;
+        ListNode dummy = new ListNode(); // Dummy node for simplified logic
+        ListNode curr = dummy; 
+
+        while (list1 != null && list2 != null) {
+            if (list1.val > list2.val) {
+                curr.next = list2;
+                list2 = list2.next;
             } else {
-                curr.next = head1;
-                head1 = head1.next;
+                curr.next = list1;
+                list1 = list1.next;
             }
             curr = curr.next;
         }
-        curr.next = (head1 != null) ? head1 : head2;
+
+        // Append remaining nodes directly
+        curr.next = (list1 != null) ? list1 : list2;
+
         return dummy.next;
+
     }
 }
