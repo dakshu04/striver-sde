@@ -15,7 +15,7 @@ class Solution {
             }
         }
         while(start <= end) {
-            ans[start++] = pivot;
+            ans[end--] = pivot;
         }
         return ans;
     }
