@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0493-reverse-pairs](https://github.com/dakshu04/striver-sde/tree/master/0493-reverse-pairs) |
 | [0496-next-greater-element-i](https://github.com/dakshu04/striver-sde/tree/master/0496-next-greater-element-i) |
 | [1552-build-an-array-with-stack-operations](https://github.com/dakshu04/striver-sde/tree/master/1552-build-an-array-with-stack-operations) |
+| [2265-partition-array-according-to-given-pivot](https://github.com/dakshu04/striver-sde/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2551-apply-operations-to-an-array](https://github.com/dakshu04/striver-sde/tree/master/2551-apply-operations-to-an-array) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/dakshu04/striver-sde/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [3227-find-missing-and-repeated-values](https://github.com/dakshu04/striver-sde/tree/master/3227-find-missing-and-repeated-values) |
@@ -55,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1552-build-an-array-with-stack-operations](https://github.com/dakshu04/striver-sde/tree/master/1552-build-an-array-with-stack-operations) |
+| [2265-partition-array-according-to-given-pivot](https://github.com/dakshu04/striver-sde/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2551-apply-operations-to-an-array](https://github.com/dakshu04/striver-sde/tree/master/2551-apply-operations-to-an-array) |
 ## Linked List
 |  |
@@ -72,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0143-reorder-list](https://github.com/dakshu04/striver-sde/tree/master/0143-reorder-list) |
 | [0287-find-the-duplicate-number](https://github.com/dakshu04/striver-sde/tree/master/0287-find-the-duplicate-number) |
 | [0908-middle-of-the-linked-list](https://github.com/dakshu04/striver-sde/tree/master/0908-middle-of-the-linked-list) |
+| [2265-partition-array-according-to-given-pivot](https://github.com/dakshu04/striver-sde/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2551-apply-operations-to-an-array](https://github.com/dakshu04/striver-sde/tree/master/2551-apply-operations-to-an-array) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/dakshu04/striver-sde/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 ## Recursion
