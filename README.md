@@ -55,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0020-valid-parentheses](https://github.com/dakshu04/striver-sde/tree/master/0020-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/dakshu04/striver-sde/tree/master/0042-trapping-rain-water) |
+| [0094-binary-tree-inorder-traversal](https://github.com/dakshu04/striver-sde/tree/master/0094-binary-tree-inorder-traversal) |
 | [0143-reorder-list](https://github.com/dakshu04/striver-sde/tree/master/0143-reorder-list) |
 | [0225-implement-stack-using-queues](https://github.com/dakshu04/striver-sde/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/dakshu04/striver-sde/tree/master/0232-implement-queue-using-stacks) |
@@ -187,4 +188,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/dakshu04/striver-sde/tree/master/0014-longest-common-prefix) |
+## Tree
+|  |
+| ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/dakshu04/striver-sde/tree/master/0094-binary-tree-inorder-traversal) |
+## Depth-First Search
+|  |
+| ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/dakshu04/striver-sde/tree/master/0094-binary-tree-inorder-traversal) |
+## Binary Tree
+|  |
+| ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/dakshu04/striver-sde/tree/master/0094-binary-tree-inorder-traversal) |
 <!---LeetCode Topics End-->
