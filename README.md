@@ -150,6 +150,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/dakshu04/striver-sde/tree/master/0048-rotate-image) |
+| [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/dakshu04/striver-sde/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
 | [3227-find-missing-and-repeated-values](https://github.com/dakshu04/striver-sde/tree/master/3227-find-missing-and-repeated-values) |
 ## Sorting
 |  |
