@@ -1,5 +1,9 @@
 class Solution {
     public long coloredCells(int n) {
-        return 1 + (long) n * (n - 1) * 2;
+        long res = 1;
+        for(int i = 0; i < n; i++) {
+            res = res +  4 * i;
+        }
+        return res;
     }
 }
