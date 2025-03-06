@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0033-search-in-rotated-sorted-array](https://github.com/dakshu04/striver-sde/tree/master/0033-search-in-rotated-sorted-array) |
 | [0040-combination-sum-ii](https://github.com/dakshu04/striver-sde/tree/master/0040-combination-sum-ii) |
 | [0042-trapping-rain-water](https://github.com/dakshu04/striver-sde/tree/master/0042-trapping-rain-water) |
+| [0046-permutations](https://github.com/dakshu04/striver-sde/tree/master/0046-permutations) |
 | [0048-rotate-image](https://github.com/dakshu04/striver-sde/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/dakshu04/striver-sde/tree/master/0053-maximum-subarray) |
 | [0056-merge-intervals](https://github.com/dakshu04/striver-sde/tree/master/0056-merge-intervals) |
@@ -133,6 +134,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0040-combination-sum-ii](https://github.com/dakshu04/striver-sde/tree/master/0040-combination-sum-ii) |
+| [0046-permutations](https://github.com/dakshu04/striver-sde/tree/master/0046-permutations) |
 | [0090-subsets-ii](https://github.com/dakshu04/striver-sde/tree/master/0090-subsets-ii) |
 | [0131-palindrome-partitioning](https://github.com/dakshu04/striver-sde/tree/master/0131-palindrome-partitioning) |
 ## Bit Manipulation
