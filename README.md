@@ -163,6 +163,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/dakshu04/striver-sde/tree/master/0048-rotate-image) |
 | [0060-permutation-sequence](https://github.com/dakshu04/striver-sde/tree/master/0060-permutation-sequence) |
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/dakshu04/striver-sde/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
+| [2610-closest-prime-numbers-in-range](https://github.com/dakshu04/striver-sde/tree/master/2610-closest-prime-numbers-in-range) |
 | [2649-count-total-number-of-colored-cells](https://github.com/dakshu04/striver-sde/tree/master/2649-count-total-number-of-colored-cells) |
 | [3227-find-missing-and-repeated-values](https://github.com/dakshu04/striver-sde/tree/master/3227-find-missing-and-repeated-values) |
 ## Sorting
@@ -225,4 +226,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0199-binary-tree-right-side-view](https://github.com/dakshu04/striver-sde/tree/master/0199-binary-tree-right-side-view) |
+## Number Theory
+|  |
+| ------- |
+| [2610-closest-prime-numbers-in-range](https://github.com/dakshu04/striver-sde/tree/master/2610-closest-prime-numbers-in-range) |
 <!---LeetCode Topics End-->
