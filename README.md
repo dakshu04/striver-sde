@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0090-subsets-ii](https://github.com/dakshu04/striver-sde/tree/master/0090-subsets-ii) |
 | [0118-pascals-triangle](https://github.com/dakshu04/striver-sde/tree/master/0118-pascals-triangle) |
 | [0128-longest-consecutive-sequence](https://github.com/dakshu04/striver-sde/tree/master/0128-longest-consecutive-sequence) |
+| [0215-kth-largest-element-in-an-array](https://github.com/dakshu04/striver-sde/tree/master/0215-kth-largest-element-in-an-array) |
 | [0287-find-the-duplicate-number](https://github.com/dakshu04/striver-sde/tree/master/0287-find-the-duplicate-number) |
 | [0493-reverse-pairs](https://github.com/dakshu04/striver-sde/tree/master/0493-reverse-pairs) |
 | [0496-next-greater-element-i](https://github.com/dakshu04/striver-sde/tree/master/0496-next-greater-element-i) |
@@ -44,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/dakshu04/striver-sde/tree/master/0004-median-of-two-sorted-arrays) |
 | [0053-maximum-subarray](https://github.com/dakshu04/striver-sde/tree/master/0053-maximum-subarray) |
+| [0215-kth-largest-element-in-an-array](https://github.com/dakshu04/striver-sde/tree/master/0215-kth-largest-element-in-an-array) |
 | [0493-reverse-pairs](https://github.com/dakshu04/striver-sde/tree/master/0493-reverse-pairs) |
 ## String
 |  |
@@ -177,6 +179,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/dakshu04/striver-sde/tree/master/0015-3sum) |
 | [0056-merge-intervals](https://github.com/dakshu04/striver-sde/tree/master/0056-merge-intervals) |
 | [0088-merge-sorted-array](https://github.com/dakshu04/striver-sde/tree/master/0088-merge-sorted-array) |
+| [0215-kth-largest-element-in-an-array](https://github.com/dakshu04/striver-sde/tree/master/0215-kth-largest-element-in-an-array) |
 | [0242-valid-anagram](https://github.com/dakshu04/striver-sde/tree/master/0242-valid-anagram) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/dakshu04/striver-sde/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Binary Indexed Tree
@@ -266,4 +269,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2610-closest-prime-numbers-in-range](https://github.com/dakshu04/striver-sde/tree/master/2610-closest-prime-numbers-in-range) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0215-kth-largest-element-in-an-array](https://github.com/dakshu04/striver-sde/tree/master/0215-kth-largest-element-in-an-array) |
+## Quickselect
+|  |
+| ------- |
+| [0215-kth-largest-element-in-an-array](https://github.com/dakshu04/striver-sde/tree/master/0215-kth-largest-element-in-an-array) |
 <!---LeetCode Topics End-->
