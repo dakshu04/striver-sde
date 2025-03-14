@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/dakshu04/striver-sde/tree/master/0287-find-the-duplicate-number) |
 | [0493-reverse-pairs](https://github.com/dakshu04/striver-sde/tree/master/0493-reverse-pairs) |
 | [0496-next-greater-element-i](https://github.com/dakshu04/striver-sde/tree/master/0496-next-greater-element-i) |
+| [1335-maximum-candies-allocated-to-k-children](https://github.com/dakshu04/striver-sde/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1552-build-an-array-with-stack-operations](https://github.com/dakshu04/striver-sde/tree/master/1552-build-an-array-with-stack-operations) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/dakshu04/striver-sde/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2551-apply-operations-to-an-array](https://github.com/dakshu04/striver-sde/tree/master/2551-apply-operations-to-an-array) |
@@ -42,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0074-search-a-2d-matrix](https://github.com/dakshu04/striver-sde/tree/master/0074-search-a-2d-matrix) |
 | [0287-find-the-duplicate-number](https://github.com/dakshu04/striver-sde/tree/master/0287-find-the-duplicate-number) |
 | [0493-reverse-pairs](https://github.com/dakshu04/striver-sde/tree/master/0493-reverse-pairs) |
+| [1335-maximum-candies-allocated-to-k-children](https://github.com/dakshu04/striver-sde/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/dakshu04/striver-sde/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [3643-zero-array-transformation-ii](https://github.com/dakshu04/striver-sde/tree/master/3643-zero-array-transformation-ii) |
 ## Divide and Conquer
