@@ -13,7 +13,7 @@
  *     }
  * }
  */
-class Solution {
+class Solution {//TC->O(N){skewed},O(logn){balanced},SC->O(logn){balanced},O(N){skewed}
     public TreeNode searchBST(TreeNode root, int val) {
         if(root == null) {
             return root;
