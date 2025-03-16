@@ -13,24 +13,15 @@
  *     }
  * }
  */
-//TC->O(N^2),SC->O(1)
-class Solution {
+class Solution {//TC->O(3N),SC->O(1)
     public TreeNode bstFromPreorder(int[] preorder) {
-        TreeNode root = new TreeNode(preorder[0]);
-        for(int i = 1; i < preorder.length; i++) {
-            insertBST(root, preorder[i]);
-        }
-        return root;
+        return build(preorder, Integer.MAX_VALUE, new int[]{0});
     }
-    public TreeNode insertBST(TreeNode root, int val) {
-        if(root == null) {
-            return new TreeNode(val);
-        }
-        if(root.val > val) {
-            root.left = insertBST(root.left, val);
-        } else {
-            root.right = insertBST(root.right, val);
-        }
+    public TreeNode build(int[] preorder, int bound, int[] i) {
+        if(i[0] == preorder.length || preorder[i[0]] > bound) return null;
+        TreeNode root = new TreeNode(preorder[i[0]++]);
+        root.left = build(preorder, root.val, i);
+        root.right = build(preorder, bound, i);
         return root;
     }
 }
