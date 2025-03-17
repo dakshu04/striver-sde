@@ -1,46 +1,64 @@
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
- * }
- */
 import java.util.*;
 
 class TreeNode {
     int val;
     TreeNode left, right;
-    TreeNode(int val) { this.val = val; }
+    TreeNode(int x) { val = x; }
 }
 
-class Solution {//TC->O(N),SC->O(N)
-    // Helper method for inorder traversal
-    private void inorder(TreeNode root, List<Integer> inorder) {
-        if (root == null) return;
-        inorder(root.left, inorder);
-        inorder.add(root.val);
-        inorder(root.right, inorder);
+// This class helps traverse the BST like an iterator
+class BSTIterator {
+    private Stack<TreeNode> stack = new Stack<>();
+    private boolean reverse; // false -> Inorder (left to right), true -> Reverse Inorder (right to left)
+
+    // Constructor initializes iterator and starts pushing nodes
+    public BSTIterator(TreeNode root, boolean reverse) {
+        this.reverse = reverse;
+        pushNodes(root);
     }
 
-    public boolean findTarget(TreeNode root, int k) {
-        List<Integer> list = new ArrayList<>();
-        inorder(root, list); // Get the sorted list using inorder traversal
-
-        int start = 0, end = list.size() - 1;
-        while (start < end) {
-            int sum = list.get(start) + list.get(end);
-            if (sum == k) return true;
-            else if (sum < k) start++;
-            else end--;
+    // Push nodes in a way that allows in-order traversal
+    private void pushNodes(TreeNode node) {
+        while (node != null) {
+            stack.push(node); // Store node in stack
+            node = reverse ? node.right : node.left; // Move in correct direction
         }
-        return false;
+    }
+
+    // Returns true if there are more elements left
+    public boolean hasNext() {
+        return !stack.isEmpty();
+    }
+
+    // Returns the next smallest or largest value
+    public int next() {
+        TreeNode node = stack.pop(); // Get top node
+        pushNodes(reverse ? node.left : node.right); // Move to next valid node
+        return node.val;
+    }
+}
+
+class Solution {
+    public boolean findTarget(TreeNode root, int k) {
+        if (root == null) return false; // Base case: empty tree
+
+        // Create two iterators: one for smallest values (inorder), one for largest values (reverse inorder)
+        BSTIterator leftIter = new BSTIterator(root, false);  // Ascending order
+        BSTIterator rightIter = new BSTIterator(root, true);  // Descending order
+        
+        // Get the first values from both iterators
+        int left = leftIter.next();   // Smallest value in BST
+        int right = rightIter.next(); // Largest value in BST
+
+        // Two-pointer technique to find the target sum
+        while (left < right) {  // Continue while pointers do not cross
+            int sum = left + right;
+            
+            if (sum == k) return true;  // Found a pair that adds to k
+            else if (sum < k) left = leftIter.next(); // Move left pointer to get a larger sum
+            else right = rightIter.next(); // Move right pointer to get a smaller sum
+        }
+
+        return false; // No pair found
     }
 }
