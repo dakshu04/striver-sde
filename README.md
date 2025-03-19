@@ -232,6 +232,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/dakshu04/striver-sde/tree/master/0128-longest-consecutive-sequence) |
+| [0801-is-graph-bipartite](https://github.com/dakshu04/striver-sde/tree/master/0801-is-graph-bipartite) |
 ## Sliding Window
 |  |
 | ------- |
@@ -286,6 +287,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0543-diameter-of-binary-tree](https://github.com/dakshu04/striver-sde/tree/master/0543-diameter-of-binary-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/dakshu04/striver-sde/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/dakshu04/striver-sde/tree/master/0662-maximum-width-of-binary-tree) |
+| [0801-is-graph-bipartite](https://github.com/dakshu04/striver-sde/tree/master/0801-is-graph-bipartite) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/dakshu04/striver-sde/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Binary Tree
 |  |
@@ -322,6 +324,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0199-binary-tree-right-side-view](https://github.com/dakshu04/striver-sde/tree/master/0199-binary-tree-right-side-view) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/dakshu04/striver-sde/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/dakshu04/striver-sde/tree/master/0662-maximum-width-of-binary-tree) |
+| [0801-is-graph-bipartite](https://github.com/dakshu04/striver-sde/tree/master/0801-is-graph-bipartite) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/dakshu04/striver-sde/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1036-rotting-oranges](https://github.com/dakshu04/striver-sde/tree/master/1036-rotting-oranges) |
 ## Number Theory
@@ -360,4 +363,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/dakshu04/striver-sde/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0783-search-in-a-binary-search-tree](https://github.com/dakshu04/striver-sde/tree/master/0783-search-in-a-binary-search-tree) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/dakshu04/striver-sde/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+## Graph
+|  |
+| ------- |
+| [0801-is-graph-bipartite](https://github.com/dakshu04/striver-sde/tree/master/0801-is-graph-bipartite) |
 <!---LeetCode Topics End-->
