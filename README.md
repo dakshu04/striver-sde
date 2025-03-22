@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0118-pascals-triangle](https://github.com/dakshu04/striver-sde/tree/master/0118-pascals-triangle) |
 | [0128-longest-consecutive-sequence](https://github.com/dakshu04/striver-sde/tree/master/0128-longest-consecutive-sequence) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/dakshu04/striver-sde/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0200-number-of-islands](https://github.com/dakshu04/striver-sde/tree/master/0200-number-of-islands) |
 | [0215-kth-largest-element-in-an-array](https://github.com/dakshu04/striver-sde/tree/master/0215-kth-largest-element-in-an-array) |
 | [0287-find-the-duplicate-number](https://github.com/dakshu04/striver-sde/tree/master/0287-find-the-duplicate-number) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/dakshu04/striver-sde/tree/master/0373-find-k-pairs-with-smallest-sums) |
@@ -188,6 +189,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/dakshu04/striver-sde/tree/master/0048-rotate-image) |
 | [0073-set-matrix-zeroes](https://github.com/dakshu04/striver-sde/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/dakshu04/striver-sde/tree/master/0074-search-a-2d-matrix) |
+| [0200-number-of-islands](https://github.com/dakshu04/striver-sde/tree/master/0200-number-of-islands) |
 | [1036-rotting-oranges](https://github.com/dakshu04/striver-sde/tree/master/1036-rotting-oranges) |
 | [3227-find-missing-and-repeated-values](https://github.com/dakshu04/striver-sde/tree/master/3227-find-missing-and-repeated-values) |
 ## Dynamic Programming
@@ -237,6 +239,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/dakshu04/striver-sde/tree/master/0128-longest-consecutive-sequence) |
+| [0200-number-of-islands](https://github.com/dakshu04/striver-sde/tree/master/0200-number-of-islands) |
 | [0801-is-graph-bipartite](https://github.com/dakshu04/striver-sde/tree/master/0801-is-graph-bipartite) |
 ## Sliding Window
 |  |
@@ -286,6 +289,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0144-binary-tree-preorder-traversal](https://github.com/dakshu04/striver-sde/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/dakshu04/striver-sde/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/dakshu04/striver-sde/tree/master/0199-binary-tree-right-side-view) |
+| [0200-number-of-islands](https://github.com/dakshu04/striver-sde/tree/master/0200-number-of-islands) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/dakshu04/striver-sde/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/dakshu04/striver-sde/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/dakshu04/striver-sde/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
@@ -327,6 +331,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0104-maximum-depth-of-binary-tree](https://github.com/dakshu04/striver-sde/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/dakshu04/striver-sde/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0199-binary-tree-right-side-view](https://github.com/dakshu04/striver-sde/tree/master/0199-binary-tree-right-side-view) |
+| [0200-number-of-islands](https://github.com/dakshu04/striver-sde/tree/master/0200-number-of-islands) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/dakshu04/striver-sde/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/dakshu04/striver-sde/tree/master/0662-maximum-width-of-binary-tree) |
 | [0801-is-graph-bipartite](https://github.com/dakshu04/striver-sde/tree/master/0801-is-graph-bipartite) |
