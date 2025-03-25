@@ -14,17 +14,19 @@
  * }
  */
 class Solution {
-    private TreeNode prev = null; // Global variable to track last node processed
     public void flatten(TreeNode root) {
-        //TC->O(N),SC->O(N)
         TreeNode curr = root;
-        if(curr == null) {
-            return;
+        while (curr != null) {
+            if (curr.left != null) {
+                TreeNode prev = curr.left;
+                while (prev.right != null) {  // Find rightmost node of left subtree
+                    prev = prev.right;
+                }
+                prev.right = curr.right;  // Connect rightmost node to current right subtree
+                curr.right = curr.left;   // Move left subtree to right
+                curr.left = null;         // Set left to null
+            }
+            curr = curr.right; // Move to next right node
         }
-        flatten(curr.right);
-        flatten(curr.left);
-        curr.right = prev;
-        curr.left = null;
-        prev = curr;
     }
 }
