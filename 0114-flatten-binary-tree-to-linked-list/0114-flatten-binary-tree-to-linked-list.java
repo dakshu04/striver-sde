@@ -15,7 +15,7 @@
  */
 class Solution {
     public void flatten(TreeNode root) {
-        TreeNode curr = root;
+        TreeNode curr = root;//TC->O(N),SC->O(1)
         while (curr != null) {
             if (curr.left != null) {
                 TreeNode prev = curr.left;
