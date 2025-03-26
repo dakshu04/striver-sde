@@ -1,21 +1,21 @@
 class Solution {
-    private void reverse(int[] nums, int start, int end) {
-        while(start <= end) {
-            int temp = nums[start];
-            nums[start] = nums[end];
-            nums[end] = temp;
-            start++;
-            end--;
-        }
+    public void swap(int[] nums, int i, int j) {
+        int temp = nums[i];
+        nums[i] = nums[j];
+        nums[j] = temp;
     }
-    private void swap(int[] nums, int start, int end) {
-        int temp = nums[start];
-        nums[start] = nums[end];
-        nums[end] = temp;
+    public void rev(int[] nums, int i, int j) {
+        while(i < j) {
+            int temp = nums[i];
+            nums[i] = nums[j];
+            nums[j] = temp;
+            i++;
+            j--;
+        }
     }
     public void nextPermutation(int[] nums) {
         int n = nums.length;
-        //find pivotIdx
+        //just right side me element bada h kya?
         int pivotIdx = -1;
         for(int i = n - 2; i >= 0; i--) {
             if(nums[i] < nums[i + 1]) {
@@ -24,17 +24,15 @@ class Solution {
             }
         }
         if(pivotIdx == -1) {
-            reverse(nums, 0, n - 1);
+            rev(nums, 0, n - 1);
             return;
         }
-        //next greater elmnt to make no. just greater
         for(int i = n - 1; i >= 0; i--) {
             if(nums[pivotIdx] < nums[i]) {
                 swap(nums, pivotIdx, i);
                 break;
             }
         }
-        //reverse all no. in btw
-        reverse(nums, pivotIdx + 1, n - 1);
+        rev(nums, pivotIdx + 1, n - 1);
     }
 }
