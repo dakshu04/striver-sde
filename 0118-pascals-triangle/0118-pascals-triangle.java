@@ -4,14 +4,14 @@ class Solution {
         ans.add(new ArrayList<>());
         ans.get(0).add(1);
         for(int i = 1; i < numRows; i++) {
-            List<Integer> currRow = new ArrayList<>();
-            List<Integer> prevRow = ans.get(i - 1);
-            currRow.add(1);
+            List<Integer> currList = new ArrayList<>();
+            List<Integer> prevList = ans.get(i - 1);
+            currList.add(1);
             for(int j = 1; j < i; j++) {
-                currRow.add(prevRow.get(j - 1) + prevRow.get(j));
+                currList.add(prevList.get(j - 1) + prevList.get(j));
             }
-            currRow.add(1);
-            ans.add(currRow);
+            currList.add(1);
+            ans.add(currList);
         }
         return ans;
     }
