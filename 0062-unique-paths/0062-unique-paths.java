@@ -1,6 +1,6 @@
 class Solution {
     public int f(int i, int j, int[][] dp) {
-        //TC->O(N), SC->O(N+N)
+        //TC->O(N*M), SC->O(N-1+M-1)+O(M*N)
         if(i == 0 && j == 0) {
             return 1;
         }
