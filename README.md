@@ -201,6 +201,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0005-longest-palindromic-substring](https://github.com/dakshu04/striver-sde/tree/master/0005-longest-palindromic-substring) |
 | [0042-trapping-rain-water](https://github.com/dakshu04/striver-sde/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/dakshu04/striver-sde/tree/master/0053-maximum-subarray) |
+| [0062-unique-paths](https://github.com/dakshu04/striver-sde/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/dakshu04/striver-sde/tree/master/0070-climbing-stairs) |
 | [0118-pascals-triangle](https://github.com/dakshu04/striver-sde/tree/master/0118-pascals-triangle) |
 | [0131-palindrome-partitioning](https://github.com/dakshu04/striver-sde/tree/master/0131-palindrome-partitioning) |
@@ -210,6 +211,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0048-rotate-image](https://github.com/dakshu04/striver-sde/tree/master/0048-rotate-image) |
 | [0060-permutation-sequence](https://github.com/dakshu04/striver-sde/tree/master/0060-permutation-sequence) |
+| [0062-unique-paths](https://github.com/dakshu04/striver-sde/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/dakshu04/striver-sde/tree/master/0070-climbing-stairs) |
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/dakshu04/striver-sde/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
 | [2610-closest-prime-numbers-in-range](https://github.com/dakshu04/striver-sde/tree/master/2610-closest-prime-numbers-in-range) |
@@ -390,4 +392,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/dakshu04/striver-sde/tree/master/0070-climbing-stairs) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/dakshu04/striver-sde/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
