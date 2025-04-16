@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/dakshu04/striver-sde/tree/master/0200-number-of-islands) |
 | [0213-house-robber-ii](https://github.com/dakshu04/striver-sde/tree/master/0213-house-robber-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/dakshu04/striver-sde/tree/master/0215-kth-largest-element-in-an-array) |
+| [0239-sliding-window-maximum](https://github.com/dakshu04/striver-sde/tree/master/0239-sliding-window-maximum) |
 | [0287-find-the-duplicate-number](https://github.com/dakshu04/striver-sde/tree/master/0287-find-the-duplicate-number) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/dakshu04/striver-sde/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0493-reverse-pairs](https://github.com/dakshu04/striver-sde/tree/master/0493-reverse-pairs) |
@@ -159,6 +160,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0225-implement-stack-using-queues](https://github.com/dakshu04/striver-sde/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/dakshu04/striver-sde/tree/master/0232-implement-queue-using-stacks) |
+| [0239-sliding-window-maximum](https://github.com/dakshu04/striver-sde/tree/master/0239-sliding-window-maximum) |
 ## Hash Table
 |  |
 | ------- |
@@ -271,6 +273,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/dakshu04/striver-sde/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0239-sliding-window-maximum](https://github.com/dakshu04/striver-sde/tree/master/0239-sliding-window-maximum) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/dakshu04/striver-sde/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/dakshu04/striver-sde/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [3483-alternating-groups-ii](https://github.com/dakshu04/striver-sde/tree/master/3483-alternating-groups-ii) |
@@ -374,6 +377,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/dakshu04/striver-sde/tree/master/0215-kth-largest-element-in-an-array) |
+| [0239-sliding-window-maximum](https://github.com/dakshu04/striver-sde/tree/master/0239-sliding-window-maximum) |
 | [0295-find-median-from-data-stream](https://github.com/dakshu04/striver-sde/tree/master/0295-find-median-from-data-stream) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/dakshu04/striver-sde/tree/master/0373-find-k-pairs-with-smallest-sums) |
 ## Quickselect
@@ -419,4 +423,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0146-lru-cache](https://github.com/dakshu04/striver-sde/tree/master/0146-lru-cache) |
 | [0460-lfu-cache](https://github.com/dakshu04/striver-sde/tree/master/0460-lfu-cache) |
+## Monotonic Queue
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/dakshu04/striver-sde/tree/master/0239-sliding-window-maximum) |
 <!---LeetCode Topics End-->
