@@ -116,6 +116,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0143-reorder-list](https://github.com/dakshu04/striver-sde/tree/master/0143-reorder-list) |
 | [0146-lru-cache](https://github.com/dakshu04/striver-sde/tree/master/0146-lru-cache) |
 | [0206-reverse-linked-list](https://github.com/dakshu04/striver-sde/tree/master/0206-reverse-linked-list) |
+| [0460-lfu-cache](https://github.com/dakshu04/striver-sde/tree/master/0460-lfu-cache) |
 | [0908-middle-of-the-linked-list](https://github.com/dakshu04/striver-sde/tree/master/0908-middle-of-the-linked-list) |
 ## Two Pointers
 |  |
@@ -150,6 +151,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0225-implement-stack-using-queues](https://github.com/dakshu04/striver-sde/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/dakshu04/striver-sde/tree/master/0232-implement-queue-using-stacks) |
 | [0295-find-median-from-data-stream](https://github.com/dakshu04/striver-sde/tree/master/0295-find-median-from-data-stream) |
+| [0460-lfu-cache](https://github.com/dakshu04/striver-sde/tree/master/0460-lfu-cache) |
 ## Queue
 |  |
 | ------- |
@@ -167,6 +169,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0138-copy-list-with-random-pointer](https://github.com/dakshu04/striver-sde/tree/master/0138-copy-list-with-random-pointer) |
 | [0146-lru-cache](https://github.com/dakshu04/striver-sde/tree/master/0146-lru-cache) |
 | [0242-valid-anagram](https://github.com/dakshu04/striver-sde/tree/master/0242-valid-anagram) |
+| [0460-lfu-cache](https://github.com/dakshu04/striver-sde/tree/master/0460-lfu-cache) |
 | [0496-next-greater-element-i](https://github.com/dakshu04/striver-sde/tree/master/0496-next-greater-element-i) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/dakshu04/striver-sde/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/dakshu04/striver-sde/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
@@ -412,4 +415,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/dakshu04/striver-sde/tree/master/0146-lru-cache) |
+| [0460-lfu-cache](https://github.com/dakshu04/striver-sde/tree/master/0460-lfu-cache) |
 <!---LeetCode Topics End-->
