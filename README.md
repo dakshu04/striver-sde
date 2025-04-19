@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/dakshu04/striver-sde/tree/master/0048-rotate-image) |
 | [0051-n-queens](https://github.com/dakshu04/striver-sde/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/dakshu04/striver-sde/tree/master/0053-maximum-subarray) |
+| [0055-jump-game](https://github.com/dakshu04/striver-sde/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/dakshu04/striver-sde/tree/master/0056-merge-intervals) |
 | [0063-unique-paths-ii](https://github.com/dakshu04/striver-sde/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/dakshu04/striver-sde/tree/master/0064-minimum-path-sum) |
@@ -221,6 +222,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0005-longest-palindromic-substring](https://github.com/dakshu04/striver-sde/tree/master/0005-longest-palindromic-substring) |
 | [0042-trapping-rain-water](https://github.com/dakshu04/striver-sde/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/dakshu04/striver-sde/tree/master/0053-maximum-subarray) |
+| [0055-jump-game](https://github.com/dakshu04/striver-sde/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/dakshu04/striver-sde/tree/master/0062-unique-paths) |
 | [0063-unique-paths-ii](https://github.com/dakshu04/striver-sde/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/dakshu04/striver-sde/tree/master/0064-minimum-path-sum) |
@@ -430,4 +432,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/dakshu04/striver-sde/tree/master/0239-sliding-window-maximum) |
+## Greedy
+|  |
+| ------- |
+| [0055-jump-game](https://github.com/dakshu04/striver-sde/tree/master/0055-jump-game) |
 <!---LeetCode Topics End-->
