@@ -84,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0008-string-to-integer-atoi](https://github.com/dakshu04/striver-sde/tree/master/0008-string-to-integer-atoi) |
 | [0014-longest-common-prefix](https://github.com/dakshu04/striver-sde/tree/master/0014-longest-common-prefix) |
 | [0020-valid-parentheses](https://github.com/dakshu04/striver-sde/tree/master/0020-valid-parentheses) |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/dakshu04/striver-sde/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0058-length-of-last-word](https://github.com/dakshu04/striver-sde/tree/master/0058-length-of-last-word) |
 | [0131-palindrome-partitioning](https://github.com/dakshu04/striver-sde/tree/master/0131-palindrome-partitioning) |
 | [0151-reverse-words-in-a-string](https://github.com/dakshu04/striver-sde/tree/master/0151-reverse-words-in-a-string) |
@@ -131,6 +132,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0005-longest-palindromic-substring](https://github.com/dakshu04/striver-sde/tree/master/0005-longest-palindromic-substring) |
 | [0015-3sum](https://github.com/dakshu04/striver-sde/tree/master/0015-3sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/dakshu04/striver-sde/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/dakshu04/striver-sde/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0031-next-permutation](https://github.com/dakshu04/striver-sde/tree/master/0031-next-permutation) |
 | [0042-trapping-rain-water](https://github.com/dakshu04/striver-sde/tree/master/0042-trapping-rain-water) |
 | [0088-merge-sorted-array](https://github.com/dakshu04/striver-sde/tree/master/0088-merge-sorted-array) |
@@ -437,4 +439,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0055-jump-game](https://github.com/dakshu04/striver-sde/tree/master/0055-jump-game) |
+## String Matching
+|  |
+| ------- |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/dakshu04/striver-sde/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 <!---LeetCode Topics End-->
