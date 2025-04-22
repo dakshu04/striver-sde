@@ -1,20 +1,20 @@
 class Solution {
     public boolean isAnagram(String s, String t) {
-        int n = s.length();
-        int m = t.length();
-        if(n != m) {
-            return false;
+        HashMap<Character, Integer> map = new HashMap<>();
+        for(char ch : s.toCharArray()) {
+            map.put(ch, map.getOrDefault(ch, 0) + 1);
         }
-        int[] freq = new int[26]; //assuming only lowercase eng character
-        for(int i = 0; i < n; i++) {
-            freq[s.charAt(i) - 'a']++; //asci value of a is 97
-            freq[t.charAt(i) - 'a']--; //e.g c-a = 99-97=2 0-baseIndex
-        }
-        for(int cnt : freq) {
-            if(cnt != 0) {
+        for(char ch : t.toCharArray()) {
+            if(map.containsKey(ch)) {
+                if(map.get(ch) > 1) {
+                    map.put(ch, map.getOrDefault(ch, 0) - 1);
+                } else {
+                    map.remove(ch);
+                }
+            } else {
                 return false;
             }
         }
-        return true;
+        return map.isEmpty();
     }
 }
