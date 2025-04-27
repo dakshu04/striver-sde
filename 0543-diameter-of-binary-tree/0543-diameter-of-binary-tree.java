@@ -1,6 +1,6 @@
 /**
- * Definition for a binary tree TreeNode.
- * public class TreeTreeNode {
+ * Definition for a binary tree node.
+ * public class TreeNode {
  *     int val;
  *     TreeNode left;
  *     TreeNode right;
@@ -14,25 +14,25 @@
  * }
  */
 class Solution {
-    // Function to find the diameter of a binary tree
-    public int diameterOfBinaryTree(TreeNode root) {
-        int[] diameter = new int[1]; // Stores the maximum diameter
-        height(root, diameter);
-        return diameter[0];
+    public int height(TreeNode root) {
+        if(root == null) {
+            return 0;
+        }
+        int lh = height(root.left);
+        int rh = height(root.right);
+        return Math.max(lh,rh)+1;
     }
-
-    // Function to calculate the height of the tree and update the diameter
-    private int height(TreeNode node, int[] diameter) {
-        if (node == null) return 0;
-
-        // Recursively calculate the height of left and right subtrees
-        int leftHeight = height(node.left, diameter);
-        int rightHeight = height(node.right, diameter);
-
-        // Update the maximum diameter found so far
-        diameter[0] = Math.max(diameter[0], leftHeight + rightHeight);
-
-        // Return the height of the current TreeNode's subtree
-        return 1 + Math.max(leftHeight, rightHeight);
+    public int diameterOfBinaryTree(TreeNode root) {
+        if(root == null) {
+            return 0;
+        }
+        //self
+        int leftHeight = height(root.left);
+        int rightHeight = height(root.right);
+        int currDiam = leftHeight + rightHeight;
+        //without self
+        int leftDiam = diameterOfBinaryTree(root.left); 
+        int rightDiam = diameterOfBinaryTree(root.right); 
+        return Math.max(Math.max(leftDiam, rightDiam), currDiam);
     }
 }
