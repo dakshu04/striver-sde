@@ -56,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3227-find-missing-and-repeated-values](https://github.com/dakshu04/striver-sde/tree/master/3227-find-missing-and-repeated-values) |
 | [3483-alternating-groups-ii](https://github.com/dakshu04/striver-sde/tree/master/3483-alternating-groups-ii) |
 | [3643-zero-array-transformation-ii](https://github.com/dakshu04/striver-sde/tree/master/3643-zero-array-transformation-ii) |
+| [3685-count-subarrays-of-length-three-with-a-condition](https://github.com/dakshu04/striver-sde/tree/master/3685-count-subarrays-of-length-three-with-a-condition) |
 ## Binary Search
 |  |
 | ------- |
