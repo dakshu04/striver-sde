@@ -23,18 +23,16 @@ class Node {
 
 class Solution {
     public Node connect(Node root) {
-        if (root == null) {
-            return null;
-        }//TC->O(N),SC->O(1)
-        Node current = root;
-        while (current.left != null) {
-            Node temp = current;//to store current for next level traversal
-            while (current != null) {
-                current.left.next = current.right;
-                current.right.next = current.next == null ? null : current.next.left;
-                current = current.next;
+        if(root == null) return null;
+        Node curr = root;
+        while(curr.left != null) {
+            Node temp = curr;
+            while(curr != null) {
+                curr.left.next = curr.right;
+                curr.right.next = curr.next == null ? null : curr.next.left;
+                curr = curr.next;
             }
-            current = temp.left;
+            curr = temp.left;
         }
         return root;
     }
