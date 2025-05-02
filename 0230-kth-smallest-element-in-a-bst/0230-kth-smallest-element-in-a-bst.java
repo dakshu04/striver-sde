@@ -13,19 +13,23 @@
  *     }
  * }
  */
-class Solution {//TC->O(N), SC->O(H)
-    public void inorder(TreeNode root, List<Integer> list) {
-        if(root == null) {
+class Solution {
+    private int count = 0;
+    private int ans = -1;
+    public void inorder(TreeNode node, int k) {
+        if(node == null) {
             return;
         }
-        list.add(root.val);
-        inorder(root.left, list);  
-        inorder(root.right, list);
+        inorder(node.left, k);
+        count++;
+        if(count == k) {
+            ans = node.val;
+            return;
+        }
+        inorder(node.right, k);
     }
     public int kthSmallest(TreeNode root, int k) {
-        ArrayList<Integer> inorder = new ArrayList<>();
-        inorder(root, inorder);
-        Collections.sort(inorder);
-        return inorder.get(k - 1);
+        inorder(root, k);
+        return ans;
     }
 }
