@@ -1,16 +1,17 @@
 class Solution {
-    //TC->O(n), SC->O(n){Recursion + dp}
-    public int dfs(int idx, int[] nums, int[] dp) {
-        if(idx < 0) return 0;
-        if(dp[idx] != -1) return dp[idx];
-        int robCurr = nums[idx] + dfs(idx - 2, nums, dp);
-        int skipCurr = dfs(idx - 1, nums, dp);
-        return dp[idx] = Math.max(robCurr, skipCurr);
-    }
+    //TC->O(n), SC->O(n){dp}{Tabulation(bottomUp)}
     public int rob(int[] nums) {
         int n = nums.length;
+        if(n == 0) return 0;
+        if(n == 1) return nums[1];
         int[] dp = new int[n];
-        Arrays.fill(dp, -1);
-        return dfs(n - 1, nums, dp);
+        dp[0] = nums[0];
+        dp[1] = Math.max(nums[0], nums[1]);
+        for(int i = 2; i < n; i++) {
+            int currTak = nums[i] + dp[i - 2];
+            int currSkip = dp[i - 1];
+            dp[i] = Math.max(currTak, currSkip);
+        }
+        return dp[n - 1];
     }
 }
