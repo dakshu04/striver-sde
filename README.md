@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/dakshu04/striver-sde/tree/master/0128-longest-consecutive-sequence) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/dakshu04/striver-sde/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/dakshu04/striver-sde/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0198-house-robber](https://github.com/dakshu04/striver-sde/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/dakshu04/striver-sde/tree/master/0200-number-of-islands) |
 | [0213-house-robber-ii](https://github.com/dakshu04/striver-sde/tree/master/0213-house-robber-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/dakshu04/striver-sde/tree/master/0215-kth-largest-element-in-an-array) |
@@ -243,6 +244,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0118-pascals-triangle](https://github.com/dakshu04/striver-sde/tree/master/0118-pascals-triangle) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/dakshu04/striver-sde/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0131-palindrome-partitioning](https://github.com/dakshu04/striver-sde/tree/master/0131-palindrome-partitioning) |
+| [0198-house-robber](https://github.com/dakshu04/striver-sde/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/dakshu04/striver-sde/tree/master/0213-house-robber-ii) |
 | [0747-min-cost-climbing-stairs](https://github.com/dakshu04/striver-sde/tree/master/0747-min-cost-climbing-stairs) |
 | [0967-minimum-falling-path-sum](https://github.com/dakshu04/striver-sde/tree/master/0967-minimum-falling-path-sum) |
