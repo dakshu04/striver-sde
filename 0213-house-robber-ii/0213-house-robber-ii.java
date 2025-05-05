@@ -1,25 +1,29 @@
 class Solution {
-    //TC->O(N), SC->O(N)
+    //Optimization-TC->O(N), SC->O(1)
     public int robLinear(int[] nums, int start, int end) {
-        int n = nums.length;
-        int[] dp = new int[n];
-        dp[start] = nums[start];
-        if (start + 1 <= end)
-            dp[start + 1] = Math.max(nums[start], nums[start + 1]);
+        int prev2 = 0; // dp[i - 2]
+        int prev1 = 0; // dp[i - 1]
 
-        for (int i = start + 2; i <= end; i++) {
-            dp[i] = Math.max(nums[i] + dp[i - 2], dp[i - 1]);
+        for (int i = start; i <= end; i++) {
+            int pick = nums[i] + prev2;
+            int notPick = prev1;
+            int curr = Math.max(pick, notPick);
+            prev2 = prev1;
+            prev1 = curr;
         }
 
-        return dp[end];
+        return prev1;
     }
 
     public int rob(int[] nums) {
         int n = nums.length;
         if (n == 1) return nums[0];
 
-        int case1 = robLinear(nums, 0, n - 2); // Exclude last house
-        int case2 = robLinear(nums, 1, n - 1); // Exclude first house
+        // Exclude first house, rob from 1 to n-1
+        int case1 = robLinear(nums, 1, n - 1);
+
+        // Exclude last house, rob from 0 to n-2
+        int case2 = robLinear(nums, 0, n - 2);
 
         return Math.max(case1, case2);
     }
