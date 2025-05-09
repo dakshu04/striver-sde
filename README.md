@@ -453,6 +453,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0801-is-graph-bipartite](https://github.com/dakshu04/striver-sde/tree/master/0801-is-graph-bipartite) |
+| [1916-find-center-of-star-graph](https://github.com/dakshu04/striver-sde/tree/master/1916-find-center-of-star-graph) |
 ## Memoization
 |  |
 | ------- |
