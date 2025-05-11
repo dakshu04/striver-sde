@@ -1,20 +1,20 @@
-class Solution {//TC->O(n^2){checks max of two recursive call and checks if(it is already calculated)}, Sc->O(n^2)
-    public int helperFn(int idx, int prevIdx, int[] nums, int[][] dp) {
-        if(idx == nums.length) return 0;
-        if(dp[idx][prevIdx + 1] != -1) return dp[idx][prevIdx + 1];
-        //notTake
-        int notTake = 0 + helperFn(idx + 1, prevIdx, nums, dp);
-        //take
-        int take = 0;
-        if(prevIdx == -1 || nums[prevIdx] < nums[idx]) {
-            take = 1 + helperFn(idx + 1, idx, nums, dp);
+class Solution {
+    public int lengthOfLIS(int[] arr) {
+        int n = arr.length;
+        int[][] dp = new int[n + 1][n + 1];
+        for (int[] row : dp) {
+            Arrays.fill(row, 0);
+        }//TC->O(n^2),SC->O(n^2)
+        for (int ind = n - 1; ind >= 0; ind--) {
+            for (int prev_ind = ind - 1; prev_ind >= -1; prev_ind--) {
+                int len = 0 + dp[ind + 1][prev_ind + 1];
+                if (prev_ind == -1 || arr[ind] > arr[prev_ind]) {
+                    len = Math.max(len, 1 + dp[ind + 1][ind + 1]);
+                }
+                dp[ind][prev_ind + 1] = len;
+            }
         }
-        return dp[idx][prevIdx + 1] = Math.max(take, notTake);
+        return dp[0][0];
     }
-    public int lengthOfLIS(int[] nums) {
-        int n = nums.length;
-        int[][] dp = new int[n][n+1];
-        for(int[] row : dp) Arrays.fill(row, -1);
-        return helperFn(0, -1, nums, dp);
-    }
+
 }
