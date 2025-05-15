@@ -1,23 +1,19 @@
 class Solution {
-    //TC->O(n log n) + O(2ⁿ)
-    //SC->O(2ⁿ * n)
-    private void fun(int start, int[] nums, List<Integer> current, List<List<Integer>> subsets) {
-        subsets.add(new ArrayList<>(current)); // Add current subset
-
-        for (int i = start; i < nums.length; i++) {
-            if (i > start && nums[i] == nums[i - 1]) {
-                continue; // Skip duplicates
-            } 
-            current.add(nums[i]);
-            fun(i + 1, nums, current, subsets); // Use i + 1 instead of start + 1
-            current.remove(current.size() - 1);
+    public void fun(int idx, List<Integer> curr,Set<List<Integer>> res, int[] nums) {
+        if(idx == nums.length) {
+            res.add(new ArrayList<Integer>(curr));
+            return;
         }
+        curr.add(nums[idx]);
+        fun(idx + 1, curr, res, nums);
+        curr.remove(curr.size() - 1);
+        fun(idx + 1, curr, res, nums);
     }
-
     public List<List<Integer>> subsetsWithDup(int[] nums) {
-        List<List<Integer>> subsets = new ArrayList<>();
-        Arrays.sort(nums); // Sort to handle duplicates
-        fun(0, nums, new ArrayList<>(), subsets);
-        return subsets;
+        Arrays.sort(nums);//handline duplicate array
+        Set<List<Integer>> res = new HashSet<>();
+        List<Integer> curr = new ArrayList<>();
+        fun(0, curr, res, nums);
+        return new ArrayList<>(res);
     }
 }
