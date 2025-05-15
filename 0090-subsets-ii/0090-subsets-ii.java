@@ -1,19 +1,19 @@
 class Solution {
-    public void fun(int idx, List<Integer> curr,Set<List<Integer>> res, int[] nums) {
-        if(idx == nums.length) {
-            res.add(new ArrayList<Integer>(curr));
-            return;
+    public void fun(int idx, List<Integer> curr, List<List<Integer>> list, int[] nums) {
+        list.add(new ArrayList<>(curr));
+        for(int i = idx; i < nums.length; i++) {
+            if(i > idx && nums[i - 1] == nums[i]) {
+                continue;
+            }
+            curr.add(nums[i]);
+            fun(i + 1, curr, list, nums);
+            curr.remove(curr.size() - 1);
         }
-        curr.add(nums[idx]);
-        fun(idx + 1, curr, res, nums);
-        curr.remove(curr.size() - 1);
-        fun(idx + 1, curr, res, nums);
     }
     public List<List<Integer>> subsetsWithDup(int[] nums) {
-        Arrays.sort(nums);//handline duplicate array
-        Set<List<Integer>> res = new HashSet<>();
-        List<Integer> curr = new ArrayList<>();
-        fun(0, curr, res, nums);
-        return new ArrayList<>(res);
+        Arrays.sort(nums);
+        List<List<Integer>> list = new ArrayList<>();
+        fun(0, new ArrayList<>(), list, nums);
+        return list;
     }
 }
