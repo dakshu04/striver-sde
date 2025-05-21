@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0967-minimum-falling-path-sum](https://github.com/dakshu04/striver-sde/tree/master/0967-minimum-falling-path-sum) |
 | [1019-squares-of-a-sorted-array](https://github.com/dakshu04/striver-sde/tree/master/1019-squares-of-a-sorted-array) |
 | [1036-rotting-oranges](https://github.com/dakshu04/striver-sde/tree/master/1036-rotting-oranges) |
+| [1046-max-consecutive-ones-iii](https://github.com/dakshu04/striver-sde/tree/master/1046-max-consecutive-ones-iii) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/dakshu04/striver-sde/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/dakshu04/striver-sde/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/dakshu04/striver-sde/tree/master/1421-find-numbers-with-even-number-of-digits) |
@@ -76,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/dakshu04/striver-sde/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/dakshu04/striver-sde/tree/master/0300-longest-increasing-subsequence) |
 | [0493-reverse-pairs](https://github.com/dakshu04/striver-sde/tree/master/0493-reverse-pairs) |
+| [1046-max-consecutive-ones-iii](https://github.com/dakshu04/striver-sde/tree/master/1046-max-consecutive-ones-iii) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/dakshu04/striver-sde/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/dakshu04/striver-sde/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [2690-house-robber-iv](https://github.com/dakshu04/striver-sde/tree/master/2690-house-robber-iv) |
@@ -310,6 +312,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/dakshu04/striver-sde/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0239-sliding-window-maximum](https://github.com/dakshu04/striver-sde/tree/master/0239-sliding-window-maximum) |
+| [1046-max-consecutive-ones-iii](https://github.com/dakshu04/striver-sde/tree/master/1046-max-consecutive-ones-iii) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/dakshu04/striver-sde/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/dakshu04/striver-sde/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [3483-alternating-groups-ii](https://github.com/dakshu04/striver-sde/tree/master/3483-alternating-groups-ii) |
@@ -442,6 +445,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/dakshu04/striver-sde/tree/master/0238-product-of-array-except-self) |
+| [1046-max-consecutive-ones-iii](https://github.com/dakshu04/striver-sde/tree/master/1046-max-consecutive-ones-iii) |
 | [3643-zero-array-transformation-ii](https://github.com/dakshu04/striver-sde/tree/master/3643-zero-array-transformation-ii) |
 ## Data Stream
 |  |
