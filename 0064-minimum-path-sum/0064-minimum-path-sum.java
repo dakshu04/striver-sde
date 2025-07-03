@@ -1,19 +1,26 @@
-class Solution {//TC->O(n*m),SC->O(1)
-    public int minPathSum(int[][] grid) {
-        int n = grid.length, m = grid[0].length;
-        int[] prev = new int[m]; // Stores previous row results
-        for (int i = 0; i < n; i++) {
-            int[] curr = new int[m]; // Current row being computed
-            for (int j = 0; j < m; j++) {
-                if (i == 0 && j == 0) curr[j] = grid[i][j]; // Base case
-                else {
-                    int up = (i > 0) ? prev[j] : (int) 1e9; // Value from the row above
-                    int left = (j > 0) ? curr[j - 1] : (int) 1e9; // Value from left cell
-                    curr[j] = grid[i][j] + Math.min(up, left);
-                }
-            }
-            prev = curr; // Update prev row to the current row
+class Solution {
+    public int fun(int i, int j, int[][] grid, int[][] dp) {
+        if(i == 0 && j == 0) {
+            return grid[i][j];
         }
-        return prev[m - 1]; // Answer is in the last column of the last processed row
+        if(i < 0 || j < 0) {
+            return Integer.MAX_VALUE;
+        }
+        if(dp[i][j] != -1) {
+            return dp[i][j];
+        }
+        int up = fun(i - 1, j, grid, dp);
+        int left = fun(i, j - 1, grid, dp);
+
+        return dp[i][j] = grid[i][j] + Math.min(up, left);
+    }
+    public int minPathSum(int[][] grid) {
+        int n = grid.length;
+        int m = grid[0].length;
+        int[][] dp = new int[n][m];
+        for(int[] row : dp) {
+            Arrays.fill(row, -1);
+        }
+        return fun(n - 1, m - 1, grid, dp);
     }
 }
