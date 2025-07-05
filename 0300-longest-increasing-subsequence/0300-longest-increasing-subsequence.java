@@ -1,19 +1,19 @@
 class Solution {
-    public int LIS(int idx, int prevIdx, int[] nums, int[][] dp) {
-        if(idx == nums.length) return 0;
-        if(dp[idx][prevIdx + 1] != -1) return dp[idx][prevIdx + 1];
-        int len = LIS(idx + 1, prevIdx, nums, dp);
-        if(prevIdx == -1 || nums[idx] > nums[prevIdx]) {
-            len = Math.max(len, 1 + LIS(idx + 1, idx, nums, dp));
-        }
-        return dp[idx][prevIdx + 1] = len;
-    }
     public int lengthOfLIS(int[] nums) {
         int n = nums.length;
-        int[][] dp = new int[n][n + 1];
-        for(int[] row : dp) {
-            Arrays.fill(row, -1);
+        List<Integer> temp = new ArrayList<>();
+        temp.add(nums[0]);
+        for(int i = 1; i < n; i++) {
+            if (nums[i] > temp.get(temp.size() - 1))  {
+                temp.add(nums[i]);
+            } else {
+                // Index at which the current element must be placed
+                int idx = Collections.binarySearch(temp, nums[i]);
+                if(idx < 0) idx = -(idx + 1);
+                // Place the current element in the subsequence
+                temp.set(idx, nums[i]);
+            }
         }
-        return LIS(0, -1, nums, dp);
+        return temp.size();
     }
 }
