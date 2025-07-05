@@ -1,20 +1,19 @@
 class Solution {
-    public int lengthOfLIS(int[] arr) {
-        int n = arr.length;
-        int[] next = new int[n + 1];
-        int[] curr = new int[n + 1];
-        //TC->O(n^2){nestedLoop}
-        //SC->O(n){two 1D array}
-        for (int ind = n - 1; ind >= 0; ind--) {
-            for (int prevIdx = ind - 1; prevIdx >= -1; prevIdx--) {
-                int len = 0 + next[prevIdx + 1];
-                if (prevIdx == -1 || arr[ind] > arr[prevIdx]) {
-                    len = Math.max(len, 1 + next[ind + 1]);
-                }
-                curr[prevIdx + 1] = len;
-            }
-            next = cur.clone(); 
+    public int LIS(int idx, int prevIdx, int[] nums, int[][] dp) {
+        if(idx == nums.length) return 0;
+        if(dp[idx][prevIdx + 1] != -1) return dp[idx][prevIdx + 1];
+        int len = LIS(idx + 1, prevIdx, nums, dp);
+        if(prevIdx == -1 || nums[idx] > nums[prevIdx]) {
+            len = Math.max(len, 1 + LIS(idx + 1, idx, nums, dp));
         }
-        return next[0];
+        return dp[idx][prevIdx + 1] = len;
+    }
+    public int lengthOfLIS(int[] nums) {
+        int n = nums.length;
+        int[][] dp = new int[n][n + 1];
+        for(int[] row : dp) {
+            Arrays.fill(row, -1);
+        }
+        return LIS(0, -1, nums, dp);
     }
 }
