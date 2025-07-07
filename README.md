@@ -55,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/dakshu04/striver-sde/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/dakshu04/striver-sde/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/dakshu04/striver-sde/tree/master/1421-find-numbers-with-even-number-of-digits) |
+| [1478-maximum-number-of-events-that-can-be-attended](https://github.com/dakshu04/striver-sde/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1552-build-an-array-with-stack-operations](https://github.com/dakshu04/striver-sde/tree/master/1552-build-an-array-with-stack-operations) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/dakshu04/striver-sde/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2048-build-array-from-permutation](https://github.com/dakshu04/striver-sde/tree/master/2048-build-array-from-permutation) |
@@ -290,6 +291,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0295-find-median-from-data-stream](https://github.com/dakshu04/striver-sde/tree/master/0295-find-median-from-data-stream) |
 | [1019-squares-of-a-sorted-array](https://github.com/dakshu04/striver-sde/tree/master/1019-squares-of-a-sorted-array) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/dakshu04/striver-sde/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1478-maximum-number-of-events-that-can-be-attended](https://github.com/dakshu04/striver-sde/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 ## Binary Indexed Tree
 |  |
 | ------- |
@@ -438,6 +440,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0239-sliding-window-maximum](https://github.com/dakshu04/striver-sde/tree/master/0239-sliding-window-maximum) |
 | [0295-find-median-from-data-stream](https://github.com/dakshu04/striver-sde/tree/master/0295-find-median-from-data-stream) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/dakshu04/striver-sde/tree/master/0373-find-k-pairs-with-smallest-sums) |
+| [1478-maximum-number-of-events-that-can-be-attended](https://github.com/dakshu04/striver-sde/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 ## Quickselect
 |  |
 | ------- |
@@ -493,6 +496,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0045-jump-game-ii](https://github.com/dakshu04/striver-sde/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/dakshu04/striver-sde/tree/master/0055-jump-game) |
+| [1478-maximum-number-of-events-that-can-be-attended](https://github.com/dakshu04/striver-sde/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 ## String Matching
 |  |
 | ------- |
