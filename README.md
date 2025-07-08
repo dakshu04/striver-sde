@@ -58,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/dakshu04/striver-sde/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/dakshu04/striver-sde/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1552-build-an-array-with-stack-operations](https://github.com/dakshu04/striver-sde/tree/master/1552-build-an-array-with-stack-operations) |
+| [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/dakshu04/striver-sde/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/dakshu04/striver-sde/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2048-build-array-from-permutation](https://github.com/dakshu04/striver-sde/tree/master/2048-build-array-from-permutation) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/dakshu04/striver-sde/tree/master/2265-partition-array-according-to-given-pivot) |
@@ -83,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0493-reverse-pairs](https://github.com/dakshu04/striver-sde/tree/master/0493-reverse-pairs) |
 | [1046-max-consecutive-ones-iii](https://github.com/dakshu04/striver-sde/tree/master/1046-max-consecutive-ones-iii) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/dakshu04/striver-sde/tree/master/1335-maximum-candies-allocated-to-k-children) |
+| [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/dakshu04/striver-sde/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/dakshu04/striver-sde/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [2690-house-robber-iv](https://github.com/dakshu04/striver-sde/tree/master/2690-house-robber-iv) |
 | [3643-zero-array-transformation-ii](https://github.com/dakshu04/striver-sde/tree/master/3643-zero-array-transformation-ii) |
@@ -269,6 +271,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0747-min-cost-climbing-stairs](https://github.com/dakshu04/striver-sde/tree/master/0747-min-cost-climbing-stairs) |
 | [0967-minimum-falling-path-sum](https://github.com/dakshu04/striver-sde/tree/master/0967-minimum-falling-path-sum) |
 | [1250-longest-common-subsequence](https://github.com/dakshu04/striver-sde/tree/master/1250-longest-common-subsequence) |
+| [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/dakshu04/striver-sde/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 ## Math
 |  |
 | ------- |
@@ -294,6 +297,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1019-squares-of-a-sorted-array](https://github.com/dakshu04/striver-sde/tree/master/1019-squares-of-a-sorted-array) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/dakshu04/striver-sde/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/dakshu04/striver-sde/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
+| [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/dakshu04/striver-sde/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 ## Binary Indexed Tree
 |  |
 | ------- |
