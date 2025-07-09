@@ -1,30 +1,21 @@
 class Solution {
-    //Optimization-TC->O(N), SC->O(1)
-    public int robLinear(int[] nums, int start, int end) {
-        int prev2 = 0; // dp[i - 2]
-        int prev1 = 0; // dp[i - 1]
-
-        for (int i = start; i <= end; i++) {
-            int pick = nums[i] + prev2;
-            int notPick = prev1;
-            int curr = Math.max(pick, notPick);
-            prev2 = prev1;
-            prev1 = curr;
-        }
-
-        return prev1;
+    private int robLinear(int[] nums, int idx, int start, int[] dp) {
+        if (idx == start) return nums[start];
+        if (idx == start + 1) return Math.max(nums[start], nums[start + 1]);
+        if (dp[idx] != -1) return dp[idx];
+        int skip = robLinear(nums, idx - 1, start, dp);
+        int take = nums[idx] + robLinear(nums, idx - 2, start, dp);
+        return dp[idx] = Math.max(skip, take);
     }
-
     public int rob(int[] nums) {
         int n = nums.length;
         if (n == 1) return nums[0];
-
-        // Exclude first house, rob from 1 to n-1
-        int case1 = robLinear(nums, 1, n - 1);
-
-        // Exclude last house, rob from 0 to n-2
-        int case2 = robLinear(nums, 0, n - 2);
-
+        int[] dp1 = new int[n];
+        int[] dp2 = new int[n];
+        Arrays.fill(dp1, -1);
+        Arrays.fill(dp2, -1);
+        int case1 = robLinear(nums, n - 2, 0, dp1); // exclude last
+        int case2 = robLinear(nums, n - 1, 1, dp2); // exclude first
         return Math.max(case1, case2);
     }
 }
