@@ -20,12 +20,12 @@ class Solution {
         }
         int lh = height(root.left);
         int rh = height(root.right);
-        return Math.max(lh, rh) + 1;
+        return 1 + Math.max(lh, rh);
     }
     public boolean isBalanced(TreeNode root) {
         if(root == null) return true;
         int lh = height(root.left);
         int rh = height(root.right);
-        return (Math.abs(lh - rh) <= 1 && isBalanced(root.left) && isBalanced(root.right));
+        return (Math.abs(lh-rh) <= 1 && isBalanced(root.left) && isBalanced(root.right));
     }
 }
