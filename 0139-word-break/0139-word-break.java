@@ -1,19 +1,20 @@
 class Solution {
     public boolean wordBreak(String s, List<String> wordDict) {
-        Boolean[] dp = new Boolean[s.length()];
-        return canBreak(0, s, new HashSet<>(wordDict), dp);
-    }
+        int n = s.length();
+        Set<String> dict = new HashSet<>(wordDict);
+        boolean[] dp = new boolean[n + 1];
 
-    public boolean canBreak(int idx, String s, Set<String> dict, Boolean[] dp) {
-        if (idx == s.length()) return true;
-        if (dp[idx] != null) return dp[idx];
+        dp[0] = true; // base case
 
-        for (int end = idx + 1; end <= s.length(); end++) {
-            if (dict.contains(s.substring(idx, end)) && canBreak(end, s, dict, dp)) {
-                return dp[idx] = true;
+        for (int i = 1; i <= n; i++) {
+            for (int j = 0; j < i; j++) {
+                if (dp[j] && dict.contains(s.substring(j, i))) {
+                    dp[i] = true;
+                    break;
+                }
             }
         }
 
-        return dp[idx] = false;
+        return dp[n];
     }
 }
