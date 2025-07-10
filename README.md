@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0118-pascals-triangle](https://github.com/dakshu04/striver-sde/tree/master/0118-pascals-triangle) |
 | [0119-pascals-triangle-ii](https://github.com/dakshu04/striver-sde/tree/master/0119-pascals-triangle-ii) |
 | [0128-longest-consecutive-sequence](https://github.com/dakshu04/striver-sde/tree/master/0128-longest-consecutive-sequence) |
+| [0139-word-break](https://github.com/dakshu04/striver-sde/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/dakshu04/striver-sde/tree/master/0152-maximum-product-subarray) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/dakshu04/striver-sde/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/dakshu04/striver-sde/tree/master/0167-two-sum-ii-input-array-is-sorted) |
@@ -109,6 +110,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/dakshu04/striver-sde/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0058-length-of-last-word](https://github.com/dakshu04/striver-sde/tree/master/0058-length-of-last-word) |
 | [0131-palindrome-partitioning](https://github.com/dakshu04/striver-sde/tree/master/0131-palindrome-partitioning) |
+| [0139-word-break](https://github.com/dakshu04/striver-sde/tree/master/0139-word-break) |
 | [0151-reverse-words-in-a-string](https://github.com/dakshu04/striver-sde/tree/master/0151-reverse-words-in-a-string) |
 | [0242-valid-anagram](https://github.com/dakshu04/striver-sde/tree/master/0242-valid-anagram) |
 | [1250-longest-common-subsequence](https://github.com/dakshu04/striver-sde/tree/master/1250-longest-common-subsequence) |
@@ -205,6 +207,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/dakshu04/striver-sde/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0128-longest-consecutive-sequence](https://github.com/dakshu04/striver-sde/tree/master/0128-longest-consecutive-sequence) |
 | [0138-copy-list-with-random-pointer](https://github.com/dakshu04/striver-sde/tree/master/0138-copy-list-with-random-pointer) |
+| [0139-word-break](https://github.com/dakshu04/striver-sde/tree/master/0139-word-break) |
 | [0146-lru-cache](https://github.com/dakshu04/striver-sde/tree/master/0146-lru-cache) |
 | [0242-valid-anagram](https://github.com/dakshu04/striver-sde/tree/master/0242-valid-anagram) |
 | [0460-lfu-cache](https://github.com/dakshu04/striver-sde/tree/master/0460-lfu-cache) |
@@ -263,6 +266,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0119-pascals-triangle-ii](https://github.com/dakshu04/striver-sde/tree/master/0119-pascals-triangle-ii) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/dakshu04/striver-sde/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0131-palindrome-partitioning](https://github.com/dakshu04/striver-sde/tree/master/0131-palindrome-partitioning) |
+| [0139-word-break](https://github.com/dakshu04/striver-sde/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/dakshu04/striver-sde/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/dakshu04/striver-sde/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/dakshu04/striver-sde/tree/master/0213-house-robber-ii) |
@@ -333,6 +337,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/dakshu04/striver-sde/tree/master/0014-longest-common-prefix) |
+| [0139-word-break](https://github.com/dakshu04/striver-sde/tree/master/0139-word-break) |
 ## Tree
 |  |
 | ------- |
@@ -484,6 +489,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/dakshu04/striver-sde/tree/master/0070-climbing-stairs) |
+| [0139-word-break](https://github.com/dakshu04/striver-sde/tree/master/0139-word-break) |
 ## Combinatorics
 |  |
 | ------- |
