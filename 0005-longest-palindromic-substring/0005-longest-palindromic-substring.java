@@ -1,26 +1,23 @@
 class Solution {
-    private int expandAroundCenter(String s, int left, int right) {
-        while (left >= 0 && right < s.length() && s.charAt(left) == s.charAt(right)) {
-            left--;
-            right++;
+    public boolean isPalindrome(String s, int start, int end) {
+        while(start < end) {
+            if(s.charAt(start) != s.charAt(end)) return false;
+            start++;
+            end--;
         }
-        return right - left - 1;
+        return true;
     }
-    
+    public String fun(String s, int start, int end, String[][] dp) {
+        if(start > end) return "";
+        if(isPalindrome(s, start, end)) return s.substring(start, end + 1);
+        if(dp[start][end] != null) return dp[start][end];
+        String left = fun(s, start + 1, end, dp);
+        String right = fun(s, start, end - 1, dp);
+        return dp[start][end] = left.length() > right.length() ? left : right;
+    }
     public String longestPalindrome(String s) {
-         if (s == null || s.length() < 1) return "";
-        
-        int start = 0, end = 0;
-        for (int i = 0; i < s.length(); i++) {
-            int len1 = expandAroundCenter(s, i, i);    // Odd length palindrome
-            int len2 = expandAroundCenter(s, i, i + 1); // Even length palindrome
-            int len = Math.max(len1, len2);
-            
-            if (len > end - start) {
-                start = i - (len - 1) / 2;
-                end = i + len / 2;
-            }
-        }
-        return s.substring(start, end + 1);
+        int n = s.length();
+        String[][] dp = new String[n][n];
+        return fun(s, 0, n - 1, dp);
     }
 }
