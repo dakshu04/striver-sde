@@ -153,6 +153,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0206-reverse-linked-list](https://github.com/dakshu04/striver-sde/tree/master/0206-reverse-linked-list) |
 | [0460-lfu-cache](https://github.com/dakshu04/striver-sde/tree/master/0460-lfu-cache) |
 | [0908-middle-of-the-linked-list](https://github.com/dakshu04/striver-sde/tree/master/0908-middle-of-the-linked-list) |
+| [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/dakshu04/striver-sde/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 ## Two Pointers
 |  |
 | ------- |
@@ -285,6 +286,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0060-permutation-sequence](https://github.com/dakshu04/striver-sde/tree/master/0060-permutation-sequence) |
 | [0062-unique-paths](https://github.com/dakshu04/striver-sde/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/dakshu04/striver-sde/tree/master/0070-climbing-stairs) |
+| [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/dakshu04/striver-sde/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/dakshu04/striver-sde/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/dakshu04/striver-sde/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
 | [2610-closest-prime-numbers-in-range](https://github.com/dakshu04/striver-sde/tree/master/2610-closest-prime-numbers-in-range) |
