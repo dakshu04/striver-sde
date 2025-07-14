@@ -110,6 +110,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/dakshu04/striver-sde/tree/master/0020-valid-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/dakshu04/striver-sde/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0058-length-of-last-word](https://github.com/dakshu04/striver-sde/tree/master/0058-length-of-last-word) |
+| [0115-distinct-subsequences](https://github.com/dakshu04/striver-sde/tree/master/0115-distinct-subsequences) |
 | [0131-palindrome-partitioning](https://github.com/dakshu04/striver-sde/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/dakshu04/striver-sde/tree/master/0139-word-break) |
 | [0151-reverse-words-in-a-string](https://github.com/dakshu04/striver-sde/tree/master/0151-reverse-words-in-a-string) |
@@ -264,6 +265,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0063-unique-paths-ii](https://github.com/dakshu04/striver-sde/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/dakshu04/striver-sde/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/dakshu04/striver-sde/tree/master/0070-climbing-stairs) |
+| [0115-distinct-subsequences](https://github.com/dakshu04/striver-sde/tree/master/0115-distinct-subsequences) |
 | [0118-pascals-triangle](https://github.com/dakshu04/striver-sde/tree/master/0118-pascals-triangle) |
 | [0119-pascals-triangle-ii](https://github.com/dakshu04/striver-sde/tree/master/0119-pascals-triangle-ii) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/dakshu04/striver-sde/tree/master/0124-binary-tree-maximum-path-sum) |
