@@ -109,6 +109,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0014-longest-common-prefix](https://github.com/dakshu04/striver-sde/tree/master/0014-longest-common-prefix) |
 | [0020-valid-parentheses](https://github.com/dakshu04/striver-sde/tree/master/0020-valid-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/dakshu04/striver-sde/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0044-wildcard-matching](https://github.com/dakshu04/striver-sde/tree/master/0044-wildcard-matching) |
 | [0058-length-of-last-word](https://github.com/dakshu04/striver-sde/tree/master/0058-length-of-last-word) |
 | [0072-edit-distance](https://github.com/dakshu04/striver-sde/tree/master/0072-edit-distance) |
 | [0115-distinct-subsequences](https://github.com/dakshu04/striver-sde/tree/master/0115-distinct-subsequences) |
@@ -184,6 +185,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/dakshu04/striver-sde/tree/master/0021-merge-two-sorted-lists) |
 | [0025-reverse-nodes-in-k-group](https://github.com/dakshu04/striver-sde/tree/master/0025-reverse-nodes-in-k-group) |
+| [0044-wildcard-matching](https://github.com/dakshu04/striver-sde/tree/master/0044-wildcard-matching) |
 | [0060-permutation-sequence](https://github.com/dakshu04/striver-sde/tree/master/0060-permutation-sequence) |
 | [0143-reorder-list](https://github.com/dakshu04/striver-sde/tree/master/0143-reorder-list) |
 | [0206-reverse-linked-list](https://github.com/dakshu04/striver-sde/tree/master/0206-reverse-linked-list) |
@@ -260,6 +262,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/dakshu04/striver-sde/tree/master/0005-longest-palindromic-substring) |
 | [0042-trapping-rain-water](https://github.com/dakshu04/striver-sde/tree/master/0042-trapping-rain-water) |
+| [0044-wildcard-matching](https://github.com/dakshu04/striver-sde/tree/master/0044-wildcard-matching) |
 | [0045-jump-game-ii](https://github.com/dakshu04/striver-sde/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/dakshu04/striver-sde/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/dakshu04/striver-sde/tree/master/0055-jump-game) |
@@ -516,6 +519,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0044-wildcard-matching](https://github.com/dakshu04/striver-sde/tree/master/0044-wildcard-matching) |
 | [0045-jump-game-ii](https://github.com/dakshu04/striver-sde/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/dakshu04/striver-sde/tree/master/0055-jump-game) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/dakshu04/striver-sde/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
