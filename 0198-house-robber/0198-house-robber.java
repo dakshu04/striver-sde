@@ -1,18 +1,15 @@
 class Solution {
+    public int robHelper(int[] nums, int idx, int[] dp) {
+        if(idx < 0) return 0; 
+        if(dp[idx] != -1) return dp[idx];
+        int skipCurr = robHelper(nums, idx - 1, dp);
+        int curr = nums[idx] + robHelper(nums, idx - 2, dp);
+        return dp[idx] = Math.max(skipCurr, curr);
+    }
     public int rob(int[] nums) {
         int n = nums.length;
-        if (n == 0) return 0;
-        if (n == 1) return nums[0];
-
         int[] dp = new int[n];
-        int prev1 = Math.max(nums[0], nums[1]);
-        int prev2 = nums[0];
-        for(int idx = 2; idx < n; idx++) {
-            int curr = Math.max(prev1, nums[idx] + prev2);
-            prev2 = prev1;
-            prev1 = curr;
-        }
-
-        return prev1;
+        Arrays.fill(dp, -1);
+        return robHelper(nums, n-1, dp);
     }
 }
