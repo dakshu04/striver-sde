@@ -44,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/dakshu04/striver-sde/tree/master/0200-number-of-islands) |
 | [0213-house-robber-ii](https://github.com/dakshu04/striver-sde/tree/master/0213-house-robber-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/dakshu04/striver-sde/tree/master/0215-kth-largest-element-in-an-array) |
+| [0217-contains-duplicate](https://github.com/dakshu04/striver-sde/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/dakshu04/striver-sde/tree/master/0238-product-of-array-except-self) |
 | [0239-sliding-window-maximum](https://github.com/dakshu04/striver-sde/tree/master/0239-sliding-window-maximum) |
 | [0287-find-the-duplicate-number](https://github.com/dakshu04/striver-sde/tree/master/0287-find-the-duplicate-number) |
@@ -222,6 +223,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0138-copy-list-with-random-pointer](https://github.com/dakshu04/striver-sde/tree/master/0138-copy-list-with-random-pointer) |
 | [0139-word-break](https://github.com/dakshu04/striver-sde/tree/master/0139-word-break) |
 | [0146-lru-cache](https://github.com/dakshu04/striver-sde/tree/master/0146-lru-cache) |
+| [0217-contains-duplicate](https://github.com/dakshu04/striver-sde/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/dakshu04/striver-sde/tree/master/0242-valid-anagram) |
 | [0460-lfu-cache](https://github.com/dakshu04/striver-sde/tree/master/0460-lfu-cache) |
 | [0496-next-greater-element-i](https://github.com/dakshu04/striver-sde/tree/master/0496-next-greater-element-i) |
@@ -318,6 +320,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/dakshu04/striver-sde/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/dakshu04/striver-sde/tree/master/0088-merge-sorted-array) |
 | [0215-kth-largest-element-in-an-array](https://github.com/dakshu04/striver-sde/tree/master/0215-kth-largest-element-in-an-array) |
+| [0217-contains-duplicate](https://github.com/dakshu04/striver-sde/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/dakshu04/striver-sde/tree/master/0242-valid-anagram) |
 | [0295-find-median-from-data-stream](https://github.com/dakshu04/striver-sde/tree/master/0295-find-median-from-data-stream) |
 | [1019-squares-of-a-sorted-array](https://github.com/dakshu04/striver-sde/tree/master/1019-squares-of-a-sorted-array) |
