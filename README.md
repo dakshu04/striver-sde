@@ -51,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0300-longest-increasing-subsequence](https://github.com/dakshu04/striver-sde/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/dakshu04/striver-sde/tree/master/0322-coin-change) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/dakshu04/striver-sde/tree/master/0373-find-k-pairs-with-smallest-sums) |
+| [0416-partition-equal-subset-sum](https://github.com/dakshu04/striver-sde/tree/master/0416-partition-equal-subset-sum) |
 | [0493-reverse-pairs](https://github.com/dakshu04/striver-sde/tree/master/0493-reverse-pairs) |
 | [0496-next-greater-element-i](https://github.com/dakshu04/striver-sde/tree/master/0496-next-greater-element-i) |
 | [0518-coin-change-ii](https://github.com/dakshu04/striver-sde/tree/master/0518-coin-change-ii) |
@@ -293,6 +294,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0213-house-robber-ii](https://github.com/dakshu04/striver-sde/tree/master/0213-house-robber-ii) |
 | [0300-longest-increasing-subsequence](https://github.com/dakshu04/striver-sde/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/dakshu04/striver-sde/tree/master/0322-coin-change) |
+| [0416-partition-equal-subset-sum](https://github.com/dakshu04/striver-sde/tree/master/0416-partition-equal-subset-sum) |
 | [0518-coin-change-ii](https://github.com/dakshu04/striver-sde/tree/master/0518-coin-change-ii) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/dakshu04/striver-sde/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0747-min-cost-climbing-stairs](https://github.com/dakshu04/striver-sde/tree/master/0747-min-cost-climbing-stairs) |
