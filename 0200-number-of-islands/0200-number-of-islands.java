@@ -1,28 +1,34 @@
 class Solution {
-    private void dfs(int i, int j, int n, int m, char[][] grid) {
-        if(i < 0 || i >= n || j < 0 || j >= m) {
+    public void dfs(int row, int col, char[][] grid) {
+        int n = grid.length;
+        int m = grid[0].length;
+        // Boundary checks and visited check
+        if (row < 0 || col < 0 || row >= n || col >= m || grid[row][col] == '0') {
             return;
-            }
-        if(grid[i][j] == '1') {
-            grid[i][j] = '#';
-            dfs(i - 1, j, n, m, grid);
-            dfs(i, j + 1, n, m, grid);
-            dfs(i + 1, j, n, m, grid);
-            dfs(i, j - 1, n, m, grid);
+        }
+        // Mark this cell as visited
+        grid[row][col] = '0';
+        // Move in 4 directions
+        int[] drow = {-1, 0, 1, 0};
+        int[] dcol = {0, 1, 0, -1};
+        for (int i = 0; i < 4; i++) {
+            int nrow = row + drow[i];
+            int ncol = col + dcol[i];
+            dfs(nrow, ncol, grid);
         }
     }
     public int numIslands(char[][] grid) {
         int n = grid.length;
         int m = grid[0].length;
-        int ans = 0;
-        for(int i = 0; i < n; i++) {
-            for(int j = 0; j < m; j++) {
-                if(grid[i][j] == '1') {
-                    dfs(i, j, n, m, grid);
-                    ans++;
+        int numberOfIslands = 0;
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
+                if (grid[i][j] == '1') {
+                    numberOfIslands++;
+                    dfs(i, j, grid);
                 }
             }
         }
-        return ans;
+        return numberOfIslands;
     }
 }
