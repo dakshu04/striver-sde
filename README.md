@@ -426,6 +426,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0145-binary-tree-postorder-traversal](https://github.com/dakshu04/striver-sde/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/dakshu04/striver-sde/tree/master/0199-binary-tree-right-side-view) |
 | [0200-number-of-islands](https://github.com/dakshu04/striver-sde/tree/master/0200-number-of-islands) |
+| [0207-course-schedule](https://github.com/dakshu04/striver-sde/tree/master/0207-course-schedule) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/dakshu04/striver-sde/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/dakshu04/striver-sde/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/dakshu04/striver-sde/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
@@ -481,6 +482,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0133-clone-graph](https://github.com/dakshu04/striver-sde/tree/master/0133-clone-graph) |
 | [0199-binary-tree-right-side-view](https://github.com/dakshu04/striver-sde/tree/master/0199-binary-tree-right-side-view) |
 | [0200-number-of-islands](https://github.com/dakshu04/striver-sde/tree/master/0200-number-of-islands) |
+| [0207-course-schedule](https://github.com/dakshu04/striver-sde/tree/master/0207-course-schedule) |
 | [0322-coin-change](https://github.com/dakshu04/striver-sde/tree/master/0322-coin-change) |
 | [0417-pacific-atlantic-water-flow](https://github.com/dakshu04/striver-sde/tree/master/0417-pacific-atlantic-water-flow) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/dakshu04/striver-sde/tree/master/0637-average-of-levels-in-binary-tree) |
@@ -534,6 +536,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0133-clone-graph](https://github.com/dakshu04/striver-sde/tree/master/0133-clone-graph) |
+| [0207-course-schedule](https://github.com/dakshu04/striver-sde/tree/master/0207-course-schedule) |
 | [0801-is-graph-bipartite](https://github.com/dakshu04/striver-sde/tree/master/0801-is-graph-bipartite) |
 | [1916-find-center-of-star-graph](https://github.com/dakshu04/striver-sde/tree/master/1916-find-center-of-star-graph) |
 ## Memoization
@@ -582,4 +585,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1509-replace-employee-id-with-the-unique-identifier](https://github.com/dakshu04/striver-sde/tree/master/1509-replace-employee-id-with-the-unique-identifier) |
 | [1724-customer-who-visited-but-did-not-make-any-transactions](https://github.com/dakshu04/striver-sde/tree/master/1724-customer-who-visited-but-did-not-make-any-transactions) |
 | [1827-invalid-tweets](https://github.com/dakshu04/striver-sde/tree/master/1827-invalid-tweets) |
+## Topological Sort
+|  |
+| ------- |
+| [0207-course-schedule](https://github.com/dakshu04/striver-sde/tree/master/0207-course-schedule) |
 <!---LeetCode Topics End-->
