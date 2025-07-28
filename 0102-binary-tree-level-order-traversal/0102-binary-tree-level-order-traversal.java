@@ -21,18 +21,18 @@ class Solution {
         q.add(root);
         while(!q.isEmpty()) {
             int size = q.size();
-            List<Integer> levelList = new ArrayList<>();
+            List<Integer> list = new ArrayList<>();
             for(int i = 0; i < size; i++) {
-                TreeNode currNode = q.poll();
-                levelList.add(currNode.val);
-                if(currNode.left != null) {
-                    q.add(currNode.left);
+                TreeNode temp = q.remove();
+                list.add(temp.val);
+                if(temp.left != null) {
+                    q.add(temp.left);
                 }
-                if(currNode.right != null) {
-                    q.add(currNode.right);
+                if(temp.right != null) {
+                    q.add(temp.right);
                 }
             }
-            ans.add(levelList);
+            ans.add(list);
         }
         return ans;
     }
