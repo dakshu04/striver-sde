@@ -26,6 +26,6 @@ class Solution {
         if(root == null) return true;
         int lh = height(root.left);
         int rh = height(root.right);
-        return (Math.abs(lh-rh) <= 1 && isBalanced(root.left) && isBalanced(root.right));
+        return (Math.abs(lh - rh) <= 1 && isBalanced(root.left) && isBalanced(root.right)); 
     }
 }
