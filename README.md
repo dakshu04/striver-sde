@@ -129,6 +129,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/dakshu04/striver-sde/tree/master/0242-valid-anagram) |
 | [1250-longest-common-subsequence](https://github.com/dakshu04/striver-sde/tree/master/1250-longest-common-subsequence) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/dakshu04/striver-sde/tree/master/1460-number-of-substrings-containing-all-three-characters) |
+| [2346-largest-3-same-digit-number-in-string](https://github.com/dakshu04/striver-sde/tree/master/2346-largest-3-same-digit-number-in-string) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/dakshu04/striver-sde/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [3396-valid-word](https://github.com/dakshu04/striver-sde/tree/master/3396-valid-word) |
 ## Stack
