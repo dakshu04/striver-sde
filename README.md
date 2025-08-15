@@ -206,6 +206,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0060-permutation-sequence](https://github.com/dakshu04/striver-sde/tree/master/0060-permutation-sequence) |
 | [0143-reorder-list](https://github.com/dakshu04/striver-sde/tree/master/0143-reorder-list) |
 | [0206-reverse-linked-list](https://github.com/dakshu04/striver-sde/tree/master/0206-reverse-linked-list) |
+| [0342-power-of-four](https://github.com/dakshu04/striver-sde/tree/master/0342-power-of-four) |
 ## Design
 |  |
 | ------- |
@@ -265,6 +266,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0090-subsets-ii](https://github.com/dakshu04/striver-sde/tree/master/0090-subsets-ii) |
 | [0287-find-the-duplicate-number](https://github.com/dakshu04/striver-sde/tree/master/0287-find-the-duplicate-number) |
+| [0342-power-of-four](https://github.com/dakshu04/striver-sde/tree/master/0342-power-of-four) |
 ## Matrix
 |  |
 | ------- |
@@ -321,6 +323,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0060-permutation-sequence](https://github.com/dakshu04/striver-sde/tree/master/0060-permutation-sequence) |
 | [0062-unique-paths](https://github.com/dakshu04/striver-sde/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/dakshu04/striver-sde/tree/master/0070-climbing-stairs) |
+| [0342-power-of-four](https://github.com/dakshu04/striver-sde/tree/master/0342-power-of-four) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/dakshu04/striver-sde/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/dakshu04/striver-sde/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/dakshu04/striver-sde/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
