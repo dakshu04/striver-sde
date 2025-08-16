@@ -326,6 +326,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0342-power-of-four](https://github.com/dakshu04/striver-sde/tree/master/0342-power-of-four) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/dakshu04/striver-sde/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/dakshu04/striver-sde/tree/master/1421-find-numbers-with-even-number-of-digits) |
+| [1448-maximum-69-number](https://github.com/dakshu04/striver-sde/tree/master/1448-maximum-69-number) |
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/dakshu04/striver-sde/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
 | [2610-closest-prime-numbers-in-range](https://github.com/dakshu04/striver-sde/tree/master/2610-closest-prime-numbers-in-range) |
 | [2649-count-total-number-of-colored-cells](https://github.com/dakshu04/striver-sde/tree/master/2649-count-total-number-of-colored-cells) |
@@ -574,6 +575,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0045-jump-game-ii](https://github.com/dakshu04/striver-sde/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/dakshu04/striver-sde/tree/master/0055-jump-game) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/dakshu04/striver-sde/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [1448-maximum-69-number](https://github.com/dakshu04/striver-sde/tree/master/1448-maximum-69-number) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/dakshu04/striver-sde/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 ## String Matching
 |  |
