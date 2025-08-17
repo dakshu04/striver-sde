@@ -313,6 +313,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0518-coin-change-ii](https://github.com/dakshu04/striver-sde/tree/master/0518-coin-change-ii) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/dakshu04/striver-sde/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0747-min-cost-climbing-stairs](https://github.com/dakshu04/striver-sde/tree/master/0747-min-cost-climbing-stairs) |
+| [0867-new-21-game](https://github.com/dakshu04/striver-sde/tree/master/0867-new-21-game) |
 | [0967-minimum-falling-path-sum](https://github.com/dakshu04/striver-sde/tree/master/0967-minimum-falling-path-sum) |
 | [1250-longest-common-subsequence](https://github.com/dakshu04/striver-sde/tree/master/1250-longest-common-subsequence) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/dakshu04/striver-sde/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
@@ -324,6 +325,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0062-unique-paths](https://github.com/dakshu04/striver-sde/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/dakshu04/striver-sde/tree/master/0070-climbing-stairs) |
 | [0342-power-of-four](https://github.com/dakshu04/striver-sde/tree/master/0342-power-of-four) |
+| [0867-new-21-game](https://github.com/dakshu04/striver-sde/tree/master/0867-new-21-game) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/dakshu04/striver-sde/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/dakshu04/striver-sde/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1448-maximum-69-number](https://github.com/dakshu04/striver-sde/tree/master/1448-maximum-69-number) |
@@ -376,6 +378,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/dakshu04/striver-sde/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0239-sliding-window-maximum](https://github.com/dakshu04/striver-sde/tree/master/0239-sliding-window-maximum) |
+| [0867-new-21-game](https://github.com/dakshu04/striver-sde/tree/master/0867-new-21-game) |
 | [1046-max-consecutive-ones-iii](https://github.com/dakshu04/striver-sde/tree/master/1046-max-consecutive-ones-iii) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/dakshu04/striver-sde/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/dakshu04/striver-sde/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
@@ -602,4 +605,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0207-course-schedule](https://github.com/dakshu04/striver-sde/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/dakshu04/striver-sde/tree/master/0210-course-schedule-ii) |
+## Probability and Statistics
+|  |
+| ------- |
+| [0867-new-21-game](https://github.com/dakshu04/striver-sde/tree/master/0867-new-21-game) |
 <!---LeetCode Topics End-->
